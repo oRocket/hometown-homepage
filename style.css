@@ -1,6 +1,5 @@
 body {
     text-align: center;
-    font-family: 'Happy Monkey', cursive;
 }
 
 .kanit-bold {
@@ -121,7 +120,7 @@ span {
     border: 2px solid #D0B8A8;
 }
 
-.guide-infomation {
+.guide-information {
     width: 200px;
     margin-top: 15px;
     margin-left: 30px;
@@ -130,4 +129,37 @@ span {
 .name {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    body {
+        padding: 5px;
+    }
+
+    .introduction {
+        padding: 5px 5px;
+    }
+
+    .activities {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #guide {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .guide-information {
+        width: 60%;
+        margin: 15px auto;
+    }
 }
