@@ -1,0 +1,132 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+}
+
+.kanit-bold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 10px 0;
+    line-height: 30px;
+}
+
+#hero {
+    background-image: url("images/accra.jpg");
+    background-size: cover;
+    height: 400px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 0;
+    color: #ffffff;
+}
+
+.title {
+    background: #1D3557;
+    padding: 2px 15px;
+    border-radius: 10px;
+    margin: 5px 0 10px 0;
+}
+
+.introduction {
+    background: #457B9D;
+    padding: 5px 40px;
+    border-radius: 10px;
+    margin: 5px 0 10px 0;
+    font-weight: 500;
+}
+
+#Accra_places {
+    background-color: #F1FAEE;
+    padding-top: 30px;
+}
+
+
+#activities-header {
+    padding-bottom: 20px;
+    font-size: 2rem;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-around;
+}
+
+.places {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+}
+
+.place-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    cursor: pointer;
+    transition: transform 0.5s ease, filter 0.5s ease;
+}
+
+.place-image:hover {
+    transform: scale(1.1);
+    filter: brightness(120%);
+}
+
+span {
+    color: #1D3557;
+    font-weight: bold;
+}
+
+#guide {
+    display: flex;
+    justify-content: center;
+    margin: 60px auto;
+    background-color: #A8DADC;
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 0px blue;
+    cursor: pointer;
+}
+
+#guide:hover {
+    background-color: bisque;
+}
+
+.guide-image {
+    width: 180px;
+    height: 240px;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: 2px solid #D0B8A8;
+}
+
+.guide-infomation {
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.name {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
