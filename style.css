@@ -74,13 +74,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 350px;
+    width: 30%;
 }
 
 .place-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    width: 80%;
+    height: 85%;
+    border-radius: 100%;
     border: 5px solid #ffffff;
     cursor: pointer;
     transition: transform 0.5s ease, filter 0.5s ease;
@@ -99,7 +99,7 @@ span {
 #guide {
     display: flex;
     justify-content: center;
-    margin: 60px auto;
+    margin: 30px auto;
     background-color: #A8DADC;
     width: 450px;
     height: 300px;
@@ -117,7 +117,7 @@ span {
     height: 240px;
     border-radius: 10px;
     margin-top: 30px;
-    border: 2px solid #D0B8A8;
+    border: 2px solid #393a02;
 }
 
 .guide-information {
@@ -134,11 +134,19 @@ span {
 /* Media Queries */
 @media (max-width: 768px) {
     body {
-        padding: 5px;
+        padding: none;
     }
 
     .introduction {
         padding: 5px 5px;
+    }
+
+    .places {
+        width: 80%;
+    }
+
+    .place-image {
+        margin-top: 10%;
     }
 
     .activities {
@@ -148,12 +156,16 @@ span {
         align-items: center;
     }
 
+    #activities-header {
+        margin: auto 5px;
+    }
+
     #guide {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 30px auto;
+        margin: auto;
         width: 100%;
         height: auto;
     }
