@@ -1,5 +1,5 @@
 # Hometown Homepage
-![Project Screenshot](images/view.png)
+![Project Screenshot](images/view.jpg)
 This project is a simple, responsive webpage designed to showcase the vibrant city of Accra, Ghana. It highlights the top activities to do in the city and introduces the guide, Albert Opoku-Twumasi, who offers insights into the local culture, heritage, and attractions.
 
 ## Live Demo
