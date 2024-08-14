@@ -80,7 +80,7 @@ body {
 .place-image {
     width: 80%;
     height: 85%;
-    border-radius: 100%;
+    border-radius: 50%;
     border: 5px solid #ffffff;
     cursor: pointer;
     transition: transform 0.5s ease, filter 0.5s ease;
